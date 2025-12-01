@@ -1,0 +1,13 @@
+prefix=/Users/hugo/Desktop/TPs_IA_embarquée/TP2/.conda
+exec_prefix=/Users/hugo/Desktop/TPs_IA_embarquée/TP2/.conda
+libdir=/Users/hugo/Desktop/TPs_IA_embarquée/TP2/.conda/lib
+sharedlibdir=/Users/hugo/Desktop/TPs_IA_embarquée/TP2/.conda/lib
+includedir=/Users/hugo/Desktop/TPs_IA_embarquée/TP2/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,121 @@
+{
+  "name": "zeromq",
+  "version": "4.3.5",
+  "build": "h6c33b1e_9",
+  "build_number": 9,
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "subdir": "osx-64",
+  "fn": "zeromq-4.3.5-h6c33b1e_9.conda",
+  "md5": "d940d809c42fbf85b05814c3290660f5",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/zeromq-4.3.5-h6c33b1e_9.conda",
+  "sha256": "30aa5a2e9c7b8dbf6659a2ccd8b74a9994cdf6f87591fcc592970daa6e7d3f3c",
+  "depends": [
+    "__osx >=10.13",
+    "libcxx >=19",
+    "libsodium >=1.0.20,<1.0.21.0a0",
+    "krb5 >=1.21.3,<1.22.0a0"
+  ],
+  "constrains": [],
+  "track_features": "",
+  "features": "",
+  "license": "MPL-2.0",
+  "timestamp": 1757371000000,
+  "size": 259628,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/Users/hugo/opt/anaconda3/pkgs/zeromq-4.3.5-h6c33b1e_9.conda",
+  "extracted_package_dir": "/Users/hugo/opt/anaconda3/pkgs/zeromq-4.3.5-h6c33b1e_9",
+  "files": [
+    "bin/curve_keygen",
+    "etc/conda/test-files/zeromq/0/tests/CMakeLists.txt",
+    "etc/conda/test-files/zeromq/0/tests/test_has.c",
+    "include/zmq.h",
+    "include/zmq_utils.h",
+    "lib/cmake/ZeroMQ/ZeroMQConfig.cmake",
+    "lib/cmake/ZeroMQ/ZeroMQConfigVersion.cmake",
+    "lib/libzmq.5.dylib",
+    "lib/libzmq.dylib",
+    "lib/pkgconfig/libzmq.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/curve_keygen",
+        "path_type": "hardlink",
+        "sha256": "faa199d79de7eb0baaac879f5daba4f6d1effaedf2d9dd31382c61a84b97585b",
+        "size_in_bytes": 14144,
+        "sha256_in_prefix": "faa199d79de7eb0baaac879f5daba4f6d1effaedf2d9dd31382c61a84b97585b"
+      },
+      {
+        "_path": "etc/conda/test-files/zeromq/0/tests/CMakeLists.txt",
+        "path_type": "hardlink",
+        "sha256": "d8497522b5c89d94b7c326b15c4c57eeac8b12136eb4d0c53c959bfa17342e8d",
+        "size_in_bytes": 764,
+        "sha256_in_prefix": "d8497522b5c89d94b7c326b15c4c57eeac8b12136eb4d0c53c959bfa17342e8d"
+      },
+      {
+        "_path": "etc/conda/test-files/zeromq/0/tests/test_has.c",
+        "path_type": "hardlink",
+        "sha256": "525fc4e17c207bbc8beea84e6a98a9441216513a296d7bcf6618e9f1dd64c2ff",
+        "size_in_bytes": 457,
+        "sha256_in_prefix": "525fc4e17c207bbc8beea84e6a98a9441216513a296d7bcf6618e9f1dd64c2ff"
+      },
+      {
+        "_path": "include/zmq.h",
+        "path_type": "hardlink",
+        "sha256": "af28f65648ab8fbf3c000bdf6395776249fc5d98d28c720f4350c61fb2d91b1a",
+        "size_in_bytes": 29850,
+        "sha256_in_prefix": "af28f65648ab8fbf3c000bdf6395776249fc5d98d28c720f4350c61fb2d91b1a"
+      },
+      {
+        "_path": "include/zmq_utils.h",
+        "path_type": "hardlink",
+        "sha256": "7aad0d8b0c40b28cce8c3ce75077ecd6bd8fd1a79a91aaed6a434e8b24a02713",
+        "size_in_bytes": 1021,
+        "sha256_in_prefix": "7aad0d8b0c40b28cce8c3ce75077ecd6bd8fd1a79a91aaed6a434e8b24a02713"
+      },
+      {
+        "_path": "lib/cmake/ZeroMQ/ZeroMQConfig.cmake",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_zeromq_1757371000/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "827ac6334a90d6f32f5ca398a27b4a898f2d9282f4298f7e98edc44fa8d4e7a0",
+        "size_in_bytes": 1094,
+        "sha256_in_prefix": "0c56bbea72e1dd9a46f32a16ea3bbbd177ba78dc394b8d640d439f818694abe7"
+      },
+      {
+        "_path": "lib/cmake/ZeroMQ/ZeroMQConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "2a1246dfd3a98f6e4e0250bd41f9e960035d37974279cc7a57e9d69bf2a76252",
+        "size_in_bytes": 367,
+        "sha256_in_prefix": "2a1246dfd3a98f6e4e0250bd41f9e960035d37974279cc7a57e9d69bf2a76252"
+      },
+      {
+        "_path": "lib/libzmq.5.dylib",
+        "path_type": "hardlink",
+        "sha256": "95163c2ea63adaa9e7ab725025b14bd2def99abec70775c77b8cdd33e0b5a7f3",
+        "size_in_bytes": 644768,
+        "sha256_in_prefix": "95163c2ea63adaa9e7ab725025b14bd2def99abec70775c77b8cdd33e0b5a7f3"
+      },
+      {
+        "_path": "lib/libzmq.dylib",
+        "path_type": "softlink",
+        "sha256": "95163c2ea63adaa9e7ab725025b14bd2def99abec70775c77b8cdd33e0b5a7f3",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/pkgconfig/libzmq.pc",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/bld/rattler-build_zeromq_1757371000/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "19166c2d2748ba9d41d0ed632e5b8887c4aad16c7c356725a7f3b09339410018",
+        "size_in_bytes": 522,
+        "sha256_in_prefix": "44355e6285a4d1fcf1e86f36d2349fa057bc229673a2ce0a7c677d70171d9934"
+      }
+    ]
+  },
+  "link": {
+    "source": "/Users/hugo/opt/anaconda3/pkgs/zeromq-4.3.5-h6c33b1e_9",
+    "type": 1
+  }
+}
